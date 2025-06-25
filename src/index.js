@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/user",authRoutes)
-app.use("/api/books",bookRoutes)
+app.use("/books",bookRoutes)
 
 
 app.listen(port,()=>{
